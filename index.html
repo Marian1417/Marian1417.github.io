@@ -9,7 +9,7 @@
     <title>My Portfolio website</title>
     <style>
       body {
-        background-image: url(https://i.pinimg.com/550x/40/89/56/408956557bb3f2261f0927cf37097a09.jpg);
+        background: url(bckgr.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         flex: auto;
@@ -26,20 +26,18 @@
        </div>
         <nav>
           <ul class="nav-menu">
-            <li> <a href="#" target="_blank">
-             About</a>
-            </li>
+           
             
-            <li> <a href="#" target="_blank">
+            <li> <a href="#Skills" >
               Skills</a>
             </li>
-            <li><a href="#" target="_blank">
+            <li><a href="#projects" >
             Project</a>
             </li>
-            <li><a href="#" target="_blank">
-             Contact</a>
-            </li>
-          </ul>
+            <li ><a href="#contact"> 
+              Contacts</a> </li>
+        
+          </ul>    
         </nav>
       </header>
   
@@ -53,10 +51,15 @@
            
             I'm <span>Marian Victoria</span>
           </h2>
-          <p>
-            I am a Web Developer
-          </p>
           
+            <h6>I am a Web Developer</h6> 
+           <p>I'm Web Developer based in Philippines, I strive to build immersive and beautiful web applications 
+            through carefully crafted code and user-centric design. You may click the links at the top of the page to learn more about me, 
+            to see my projects or to contact me directly.
+
+         
+          
+          </p>
           
         </div>
       </section>
@@ -83,28 +86,40 @@
         </nav>
       </section>
   
-    <hr>
-      <h1>SKILLS</h1>
-      <section class="skills-header">
-       
+    
+
+
+    <section class="Skills" id="Skills">
+      <div class="skills-header">
+        <h1>SKILLS</h1>
         
-         <div class="skill">
+      </div>
+      <div class="skill-container">
+        <div class="skill">
           <h3>•HTML</h3>
-          
+          <div class="skill-img-container">
+            <img src="images/html.jpg">
         </div>
+      </div>  
+      <div class="skill-container">
         <div class="skill">
           <h3>•CSS</h3>
-          
+          <div class="skill-img-container">
+            <img src="images/css.png">
         </div>
+      </div>  
+      <div class="skill-container">
         <div class="skill">
-          <h3>•JavaScript</h3>
-        
-        
-      </section>
+          <h3>•JAVASCRIPT</h3>
+          <div class="skill-img-container">
+            <img src="images/javascript.jpg">
+        </div>
+      </div>
+    </section>
   
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="projects-header">
-          <h4>PROJECTS</h4>
+          <h1>PROJECTS</h1>
           
         </div>
         <div class="projects-container">
@@ -144,7 +159,7 @@
             <div class="project-img-container">
               <img src="https://tse3.mm.bing.net/th?id=OIP.ShXW56l_KUUuLmWEy4CalwHaEK&pid=Api&P=0" />
             </div>
-            <h5>Todo List App</h5>
+            <h5>To do List App</h5>
             <div class="project-tech">
               <p>HTML</p>
               <p>CSS</p>
@@ -168,14 +183,28 @@
               <p>Javascript</p>
             </div>
             <div class="project-links">
-              <a href="#">View Project</a>
+              <a href="">View project</a>
               <a href="#">View Code</a>
             </div>
           </div> 
+          <div class="project">
+            <div class="project-img-container">
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIMArwMBEQACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAABAgADBQQGB//EADoQAAEEAQMCAwYDBQgDAAAAAAEAAgMEEQUSITFBBhNRFCIyYXGBFSORcnSyweEWJCUzQrHR0mJks//EABkBAQADAQEAAAAAAAAAAAAAAAABAgMEBf/EACcRAQACAgICAQMFAQEAAAAAAAABAgMREiEEMRMUIkEyM1FhcVIk/9oADAMBAAIRAxEAPwD48AgcBA4CAgIGxwpDAIG2oDhAdqCBqA4QTCCYQAhANqAYUBSEAIQKQgUhApCBHBAwCkM1A6AgKA4CkMAgIHKBsIDhBMIJhBMIJhBMIBhACEC4UAEIF2oFIQKQgRwQEBSHHCBgEDgIGAQMAgOEBwgYBBMIDtQTagmOFAUtUgEIBhAuOUEIUBCECkIEIQIUBCkMEDtCCwICAgZAwCAgcoGwgZo5UDqq0rFt/l1oZJn4ztjYXHH2VL5K0/VKYiZK+rIx5jexzXg4LXNIIPphIvSY5fhPGVlrTrVQNNqtNCH8tMjC3d9MhVplpeejjLjc1aqkKBcYUgEKNhcIAQgQoEIQVkIGCkM0IHaCgsAyidGDSiNCGoHa1AwaoEHVSLIx7ygejqTz1PBtySlK+CY6hEyWSM4cWFhwMjtuC83JEXzxWzevVW3VHn61oWoWfzSdOklne4ZL3w7huPqfhXNaZrW9In8tIj8sKO9dteDtbs6hZlsky1zEJXF2x5eckZ6cLo+OtM9K169q+6zt5546fNen7cytwQKG5UmtrGwuccNaSfQBWisz6hS0xX3KOgcG7tp25xuxx+qnhb8wc6x+VLmEdlRf2pcFArcgRwQQKRY1BfGwlI79Jjc+mxU0Z80DJ5bNarHI7bEZ5NpkI6446fM8LWMcuunjTPcy6j4csMe2GaerFaf/AJdd8vvv+nbntzyrfCt9JbUxM9qbWhWa0Er3ugc+Ebp4mSgviH/k3t/JVnFMIv4kxG9ssrJxbTsgjRykjoijOQegVZnXaY7eoq6ZdZ4S1l81WZkD4oZ4pHNwHFj+cfZxXlZstJz1ms7/AA3rX7WhSkY3wPavE4fUinrtz1/NMf8AVYZo/wDVw/Er0/beduf3fwJBH3t6gM/Rjf8Aly7I+7yt/wAQzmdUYrxyvQhgrKsLakDp544Yxl8jg1v1KvjrynSl7cY29DI06No1iTTrzHWfa2QySRsLS3AOW89s9138eFNw82b/ACZNT6dxtzz+IvYZ5M0XVQXwtaMElm4n657q+/viJ/hSKaxcq+9vN6kylLpVfUKkEldr5nQuie/fyACCDhc2WleO6uzDktF+NpY0gwVxy64UuChJHIIFItjGSiYjb0GneRR0aTUX1YrMxstgY2UEtZ7pcTjuV0Y4rx27cVYrTnMNXVtPt6rBpU9PTyIRVO6OMgta7e7IGTlaT3rTqyY5ycZpHtdqGjX5vEMVltOR8TRD7+RgYDc9+yce02x35xKubTrNa94gtWK72RzV7PlyHo4H5prW0RjmLW28o0Hym59FyS8m0oOqqqujaCVEj1zHafpU+l0X6TDcfaginnmlkcHAPPRuOBgD7ryrTkyxaYtqIdMRENOtX1Cbx7dklitGq980IBYdjo9jsD0x0wueb4p8eO45LamJ28206nB4Ts6bLRsMZPJFI6R8bmhuw/Md+F2bxWyxfkp3EaJ4i9zRfDdfsWzzH6l+P5K3jzFs17f4reNV0xHr0GKtSNHQxjVqP7xH/EFth/XDHP8Aty6LR/wXU/lrH8nLstrhLjpH3x/jTYceMMf+m3/5JM/fCkRMYtf2wpBnwlV/fz/Asr9Y5/1tX9+J/plSjBXHMO6Nx7UFVSrIQKFIvh6qYWq9PR9g/su8ag6ZjPxBpZJC0OLXeWeo7jGV0U1w7ejh4Th+70usyabq8FeKrb9kfTaYW+1u2iZvXORwDknhX3v1LSZrlrEY50oseHpIKotSW6gicCWO9rHv/s+qrNZj8sbYbUjezeGHuGpR1GyPdWuZhmiLste0j/cdVSkzMyrgyXm/GZYMRBiwDkNJaD64WVnJljVpgR1VGbogODlRbpMe3s9Tk0SC1o9m/Ztx2IdNgLoY4dzZWjkYdn3eQcrxqVzavWsdTLpnrS6xHqev6jLb0HXHvis/mCr7X5ckPq0tJ7eo4VaTiw14Zqdpnc+mNYu65pGoCN+tTOlZzgWRMwj0PUfZdeLHiy13EaZzafyPjexHZl0GaKJsLZKLnGNvRp3nOPllR4NePOP4kydvNv7r0oYEQd+in/FqP7xH/EFvh/XDHP8AtW/xy2iX2b0ZcQ32t7sZ7hxV8tpi01VxUia1t/TQradYc0X57UVVsjcMksTbS8dOO+FetZnuZZ3yVj7YjbrJ0mjobILluK65lgyMhqyH3iRjk44HVbbrWnvbnn5L5N1jTP1mKoNLq3mVnU5LEhDYTJv3sx8YzyBn9VhmrHHk6MN7c+Nu2C/GSuN2KyUCoLmKYTDf0lv4hplvS4z/AHgvbZrDPxvaCC0fMtPH0W1J3XTtwzvHNHEOcteOh2uaRyPVR6llETjmIt7dOuzRahrU0kbt9aFrWQjGAGgDt27qb236Xz3mbaq7KJGj0XarMNrtjmU4z1e8jBf+yAT90iOMdr44+Ok2n3+GDAzZA1p69TlZTO5cVp5TswPKhVfG7HdR7IejsxnVdFqXq432NOj9msxjk+VnLJPoMkH0XnUn4ctov+mXRP3Q547sdPw7qjY5NlywYombfiMeSX4I6f6VfLjm+Sv/ACis8Ylw6TpUlmzFWpR7538fT5n0A9Vvkv8AHXf5UrHKV3ie3BZ1tlem8SVNPgbXjf2djqR9TlZ+JWeO5/Kck7ZRK69aZEQdWnzivdrTuGRFKx5+gOVrinVolllibUmIPqtR1XVLjTyySUzRPHR7HHIIWuWtuUypgvE0iv8ADjezzi0yuLgwbWhzuAPRZcrS0iI206lSpTq/iepxDyB/kwdDYd/1Hcrox1ikc7OXJab/AGUY165PqVt1y4/c93wgDAaOwA7D5LnvebzuXVixxjrxhzPOVk0VlAAgsBwpF8UjmOa5pLXNOQRwQfUFTFpj0tW1oncNn8cFgNOpadBckA5ma4xSO/aI4P1WsZIj2648mtu7R2n41ViO6locLZB0fYlMgH24UfJB9RSI6hm27NrULBsX5jJJ2GeGj0A7fRUtaZc981rzuQLlVnKDlEGa7BUDu0/ULFGw2xUldFM3o4dx6Edx8lnlxVy14ytW0w05NdpTe9d8O15pD1fVmdEHH5t5H6LknxssRxrfpr8lXPd8RXJq0lTTKVfS6zxiTysmR49HPPJVq+JHKLZJ3Kk5P4Y8TRGzaPqSV2Qz2jiFOguUBa5SjTvr6u+Ku2tZrxXK7fgZKS1zP2XDp9F0Rn61Zz2wTvdZ0J1mrDzV0KHzOzp5jIB9laM1NdQr8OS3uzMvW7Wozmxfm8x44a0cNaPQDsFjfJNp7bY8UU9OVzuVnM7aQQlQkrigAQME2HaVIsaU0mZ70YOKA7kQIOUDBAwyoBBKezQhxCmOjSFxUGgyVMdGgPRRsLlSFJwh0G4ojUSBdlST/SslQEKhJSgQoFBQWAoNLSqBvSOZvYwNY57nPzgAdeivWvJrixTknTudojmOeZZ68cLQ0iZ7iGu3DLccZ6K3xNZ8XU9yZmiPBeJpoIdsgjaXv4e4jIwfTBHPzT4j6dVY0uWGk23IWCJzWOac8u3dAPU45Pok4+Kt8PGNs08LJzbM3qES3q+guk02O2bMLHStc+OJ4cC8B234sbQcg8ZyuW3lTWZiIaVx7hc7w4TPLDXv1JpYd4la0uBa5hAI5HPJ69FSfLj3NUxjWv8ADDm2XQC7XJjbIZjsfmPZjPu7cu+IYIBzz6KPqomN8T4nO7QWsMzp9QqxV2SCNs7i7Eji0OwABngEZyOFafJiYjVT43R/ZWwyJxmnijmBlAi2uOfLGXe8BgccjJ5VbeXHL9J8Ti1rRTpcbTLahfJuDXxNDgWkt3DqAHDHcZ5wtsXk851pE00w8rpZr9Pqm7ZZA17WF2eXZwABk9Por0pztpTJfhXbQboJLsmzGI9jHh5Y/ncSB7uM9WlbfTMJ8nRXaBIInPdNHvb5nubXHOz4ucYH3T6ZMeTuwP0LFuGqLUZmkcBt8t+G8ZznGD9kjxu/Z9R1PTO1Sj7E6L8wSMlZvY4NLcjJHQjI5CyyY+EtMeTnDOJWTUpKBAgcFBqaVqMlB0skPEjonRtIONpI6rStuLbFl+OdtGXWo7MkzrlQysle2XAmLS2QN2kg4PB547fZX+Tbb6nfsfxxsgf7VSEjfNbJHG2XaG4YGgE45GAnNP1G/am5q7rVKKvLBGfIjYIXbuWH/V9iAOPUKLX2rk8jlGmW52SsnKZjuVCHoaHiV1HSzThrAyFjmeYZ3bPeOdxj6Fw9Vx5PFm1ps1rl0eXxHD5tmWvpUUb7TZfNe6Zzy4yEE444GR0+afSzqImyfldEni7zJYj7E4Rx+YRm48vBeAPcdjLQMcDnqVnHhzPW0/K57HiRlySY39OjnidK2SOMzuaYyGBh9/HvZDRnPflXjxp1uJ7Jynf4tuTQvimYzy5WzNmjY8tDt+Nv027eP6qseHG9k5unLrPiE6hQipsq+UxsjZCTO6QAtaW4a0/COf8AZa4vG4W3KtskTDBc5dTJ0ULjqVls7BlzQ7AzjqCP5q9L8J3Cl6ReNSur6xahik/OkdLIY90hkO7Dc8ffK2jyJY28eJlL+tWLjfLy6KIvkc5rHnD9zs8j5JbNMytXBWOpdMviMvtw2RWfviORmy4t+HHDccK059dwrHj9SytSvyX3xST8ysibG5+4nfjjP6Y/TPdZZcnOWmLHFIcBKyakJUBQUDgoHa5AwcgZrigbcUDbkBBQQFA275oJvPqgO4+qAb0A3IASgXKBS5AMqQpcgVzkFZKBSVAUFA4KBgUDAoGBQMCgIKBg5AcoJlBMoJlBNyCZQDKAZQKTygUnCBCUAygQlSFJUBAUDgoGBQMCgIKBgUDAoGygmUB3IICgmUAygmUAJQDKBSUAJQKSgXKBSVIQuUBAgsagIQMEDICEDIGQFAEBCCIAUEQRAqCFAhUhSoCoFPVSFKgf/9k=" />
+            </div>
+            <h5>Rock Paper Scissors</h5>
+            <div class="project-tech">
+              <p>HTML</p>
+              <p>CSS</p>
+            </div>
+            <div class="project-links">
+              <a href="https://marian1417.github.io/Rock-Paper-Scissors/">View Project</a>
+              <a href="https://github.com/Marian1417/Rock-Paper-Scissors.git">View Code</a>
+            </div>
+          </div>
       </section>
   
       <footer>
-        <section class="contact">
+        <section class="contact" id="contact">
           <div class="contact-details">
             <h6>Contact</h6>
             <p>Thank you for viewing my portfolio. I really hope you've enjoy looking at my work. If you'd like a qoute, or more information about working with me, Please fill out the form with detailed description of your project, and I will respond as soon as possible.</p>
