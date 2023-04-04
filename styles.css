@@ -95,7 +95,7 @@ nav a {
 .thecard:hover {
   transform: rotateY(180deg);
 }
-.front {
+c .front {
   position: absolute;
   border-radius: 180px;
 
@@ -220,7 +220,7 @@ h2 span {
   }
 
   .hero-container {
-    width: 500px;
+    width: 350px;
     align-items: flex-end;
     margin-left: 600px;
 
